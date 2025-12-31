@@ -1,0 +1,44 @@
+.maincontainer {
+    display: block;
+    background: repeating-linear-gradient(45deg, darkblue 0 40px, blue 40px 80px)  
+}
+
+.maintitle {
+    display: block;
+    color: white;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.maincontent {
+    padding-left: 20px;
+    color: white;
+}
+
+.menucontainer {
+    min-height: 1500px;
+    background-color: blue;
+}
+    
+.menutitle {
+    display: block;
+    padding: 20px;
+    font-size: 30px;
+    color: white;
+}
+
+.menuitems {
+    
+}
+
+.menuitem {
+    padding: 10px 10px 10px 20px;
+    font-size: 20px;
+    color: white;
+}
+
+.menuitem:hover {
+    background-color: white;
+    color: navy;
+}

@@ -1,0 +1,24 @@
+.bulletpointlayout {
+    display: grid; 
+    grid-template-columns: 1fr 1fr;
+}
+
+@media (max-width: 1200px) {
+    .bulletpointlayout {
+        display: none;
+    }
+    .bulletpointlayout-phone {
+        display: block;
+    }
+}
+
+.bulletpointbuy {
+    background-color: dimgray;
+    color: white;
+    border: 2px white solid;
+}
+
+.bulletpointbuy:hover {
+    background-color: lightgray;
+    color: black;
+}

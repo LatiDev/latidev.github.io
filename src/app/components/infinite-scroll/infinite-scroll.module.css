@@ -1,0 +1,17 @@
+@keyframes scroll {
+    0% {
+        transform: translateX(0);
+    }
+    100% {
+        transform: translateX(-50%);
+    }
+}
+.infinitescroll {
+    animation: scroll 5s linear infinite;
+    width: max-content;
+}
+.textscroll {
+    display: inline-flex;
+    align-items: center;
+    flex-shrink: 0;
+}

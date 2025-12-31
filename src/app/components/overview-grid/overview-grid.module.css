@@ -1,0 +1,46 @@
+.gridlayoutcontainer {
+    padding: 50px 200px 50px 200px;
+}
+.gridlayoutintroduction {
+    display: block;
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+.gridlayout {
+    row-gap: 10px;
+    column-gap: 40px;
+    grid-template-columns: 1fr 1fr 1fr
+}
+.gridlayouttitle {
+    font-size: 40px;
+    padding: 30px 20px 30px 20px;
+    margin-bottom: 30px;
+}
+.gridlayoutdescription {
+    font-size: 20px;
+    height: 400px;
+    padding: 20px 20px 50px 20px;
+}
+@media (max-width: 1200px) {
+    .gridlayoutintroduction {
+        display: block;
+        font-size: 9vw;
+        margin-bottom: 1vh;
+    }
+    .gridlayoutcontainer {
+        padding: 50px 5vh 50px 5vh;
+    }
+    .gridlayout {
+        row-gap: 70px;
+        column-gap: unset;
+        grid-template-columns: unset;
+    }
+    .gridlayouttitle {
+        font-size: 7vh;
+    }
+    .gridlayoutdescription {
+        height: unset;
+        font-size: 4vmin;
+        padding: 5vh 5vw 5vh 5vw;
+    }
+}

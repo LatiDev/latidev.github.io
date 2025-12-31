@@ -1,0 +1,14 @@
+.welcomebig {
+    font-size: 70px;
+}
+.welcomesmall {
+    font-size: 30px;
+}
+@media (max-width: 1200px) {
+    .welcomebig {
+        font-size: 10vw;
+    }
+    .welcomesmall {
+        font-size: 4vw;   
+    }
+}

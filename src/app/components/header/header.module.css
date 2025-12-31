@@ -1,0 +1,69 @@
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 30px 10px 30px;
+}
+
+.headersearch {
+    border: none;
+    width: 30vw;
+}
+
+.headerlink {
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    font-size: 20px;
+}
+
+.headerlink:hover {
+    background-color: grey;
+}
+
+.headerlinkportfolio:hover {
+    color: white;
+    background-color: maroon;
+}
+
+.headerlinknouveaux:hover {
+    color: white;
+    background-color: var(--nouveaux-duo-color);
+}
+
+.headerlinkcontact:hover {
+    color: white;
+    background-color: darkgreen;
+}
+
+.headerlogo {
+    width: 100px;
+    height: 35px; 
+}
+
+@media (max-width: 1200px) {
+    .header {
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px 10px 10px 10px;
+    }
+    .headersearch {
+        font-size: 3vw;
+        margin: 10px auto 10px auto;
+        padding: 10px 0px 10px 0px;
+        width: 80vw;
+    }
+    .headerlink {
+        font-size: 8vw;
+        padding: 15px auto 15px auto;
+    }
+    .headerlogo {
+        margin: 10px auto 10px auto;
+        width: 40vw;
+        height: 15vw; 
+    }
+}
